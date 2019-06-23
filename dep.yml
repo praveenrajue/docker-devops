@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: DOCKERUSERNAME/appjun23:BUILDNUMBER
+        image: akworkshop.azurecr.io/praveenrajue/docker-devops:latest
         imagePullPolicy: Always
         ports:
         - name: nginxport
